@@ -3,7 +3,7 @@
 ## 🧠 Summary
 This project trains an **autoencoder** — a type of neural network — to **denoise and reconstruct crystallographic ring-shaped data** that has been corrupted with noise. The dataset is made up of simulated diffraction-like patterns containing rings and dots with varying intensities, designed to resemble noisy experimental images.  
 
-The notebook demonstrates how the model learns to compress (encode) and rebuild (decode) the data, showing how neural networks can extract key structural features from noisy input images.
+The notebooks demonstrates how the model learns to compress (encode) and rebuild (decode) the data, showing how neural networks can extract key structural features from noisy input images.
 
 ---
 
@@ -30,7 +30,7 @@ The notebook demonstrates how the model learns to compress (encode) and rebuild 
 
 ## ▶️ To Run
 1. Open [Google Colab](https://colab.research.google.com).  
-2. Upload the file **Autoencoder_simulated_rings_with_noise_2025.ipynb**.  
+2. Upload the file **Example: Autoencoder_simulated_rings_with_noise_2025.ipynb**.  
 3. Run all cells in order.  
 
 ---
