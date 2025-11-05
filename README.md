@@ -1,9 +1,7 @@
 # Autoencoder for Simulated Rings with Noise
 
 ## 🧠 Summary
-This project trains an **autoencoder** — a type of neural network — to **denoise and reconstruct crystallographic ring-shaped data** that has been corrupted with noise. The dataset is made up of simulated diffraction-like patterns containing rings and dots with varying intensities, designed to resemble noisy experimental images.  
-
-The notebooks demonstrates how the model learns to compress (encode) and rebuild (decode) the data, showing how neural networks can extract key structural features from noisy input images.
+I finalized my project goals and completed data source explorations. The data processing pipeline is now ready for data ingestion, cleaning, and normalization with realistic 2D crystallographic synthetic image data. Thousands of images were generated with random intensity values and counts, Gaussian noise was added to simulate imperfections, and radial background noise with higher intensity near the center was added. I also finalized a baseline autoencoder model in TensorFlow with Keras, using encoders to reduce the data into a smaller latent space and decoders to reconstruct it. In addition, I reviewed GAN and U-Net research directions and developed and tested the autoencoder model with different synthetic images to ensure stable performance.
 
 ---
 
